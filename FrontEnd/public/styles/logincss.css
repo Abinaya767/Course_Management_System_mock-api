@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0B2447, #19376D);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 900px;
+    min-height: 520px;
+    background: white;
+    border-radius: 25px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+}
+
+.role-panel {
+    background: #0B2447;
+    color: white;
+    padding: 45px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+
+.logo i { margin-right: 8px; }
+
+.role-panel h1 { font-size: 25px; margin-bottom: 8px; }
+.role-panel > p { color: #cbd5e1; font-size: 13px; margin-bottom: 25px; }
+
+.role-btn {
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+    color: white;
+    border-radius: 15px;
+    padding: 17px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.role-btn:hover,
+.role-btn.active {
+    background: white;
+    color: #0B2447;
+}
+
+.role-btn i { font-size: 25px; width: 40px; margin-right: 12px; text-align: center; }
+.role-btn strong { display: block; font-size: 16px; }
+.role-btn span { display: block; font-size: 11px; margin-top: 4px; opacity: 0.75; }
+
+.back-home { color: white; text-decoration: none; font-size: 13px; margin-top: 25px; }
+.back-home:hover { text-decoration: underline; }
+
+.login-panel {
+    padding: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-content,
+.login-form { width: 100%; max-width: 380px; text-align: center; }
+
+#studentLogin,
+#adminLogin { display: none; }
+
+.welcome-icon,
+.form-icon {
+    width: 75px;
+    height: 75px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background: #eaf1fb;
+    color: #0B2447;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.admin-icon { background: #f0ecff; }
+
+.welcome-content h1,
+.login-form h1 { color: #0B2447; font-size: 27px; margin-bottom: 12px; }
+.welcome-content p,
+.login-form > p { color: #666; font-size: 14px; line-height: 1.7; margin-bottom: 28px; }
+
+.input-group { position: relative; margin-bottom: 18px; }
+.input-group i { position: absolute; left: 17px; top: 50%; transform: translateY(-50%); color: #0B2447; }
+.input-group input { width: 100%; padding: 13px 15px 13px 45px; border: 1px solid #dfe3e8; border-radius: 12px; outline: none; font-size: 14px; }
+.input-group input:focus { border-color: #0B2447; }
+
+.main-btn { width: 100%; border: none; padding: 13px 20px; background: #0B2447; color: white; border-radius: 25px; font-size: 15px; font-weight: 500; cursor: pointer; transition: 0.3s; }
+.main-btn:hover { background: #19376D; }
+.main-btn i { margin-left: 8px; }
+
+.forgot-link { display: inline-block; margin-top: 20px; color: #0B2447; text-decoration: none; font-size: 13px; }
+.forgot-link:hover { text-decoration: underline; }
+
+.register-text { margin-top: 18px; color: #777; font-size: 13px; }
+.register-text a { color: #0B2447; text-decoration: none; font-weight: 600; }
+.register-text a:hover { text-decoration: underline; }
+
+@media (max-width: 700px) {
+    .login-container { grid-template-columns: 1fr; }
+    .role-panel { padding: 30px; }
+    .logo { margin-bottom: 25px; }
+    .login-panel { padding: 40px 25px; }
+}

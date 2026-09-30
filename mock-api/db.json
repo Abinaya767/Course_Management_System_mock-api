@@ -1,0 +1,113 @@
+{
+  "students": [
+    {
+      "id": "STU001",
+      "name": "Abinaya S",
+      "email": "abi34@gmail.com",
+      "password": "qwertyuiop"
+    }
+  ],
+  "admins": [
+    {
+      "id": "ADM001",
+      "name": "Kamalika",
+      "email": "kamali1225@gmail.com",
+      "password": "kamalika"
+    }
+  ],
+  "courses": [
+    {
+      "id": "COURSE001",
+      "title": "Python Programming",
+      "level": "Beginner",
+      "levelClass": "beginner",
+      "description": "Learn Python from basics to advanced concepts including variables, loops, functions, OOP and file handling.",
+      "duration": "8 Weeks",
+      "rating": "4.8",
+      "students": 2500
+    },
+    {
+      "id": "COURSE002",
+      "title": "Artificial Intelligence",
+      "level": "Intermediate",
+      "levelClass": "intermediate",
+      "description": "Learn Machine Learning, Deep Learning and Generative AI with practical real-world projects.",
+      "duration": "10 Weeks",
+      "rating": "4.9",
+      "students": 1900
+    },
+    {
+      "id": "COURSE003",
+      "title": "Data Science",
+      "level": "Advanced",
+      "levelClass": "advanced",
+      "description": "Master Data Analysis, NumPy, Pandas, Visualization and Machine Learning techniques.",
+      "duration": "12 Weeks",
+      "rating": "4.8",
+      "students": 1700
+    },
+    {
+      "id": "COURSE004",
+      "title": "Web Development",
+      "level": "Beginner",
+      "levelClass": "beginner",
+      "description": "Build responsive websites using HTML, CSS, JavaScript and modern frontend development techniques.",
+      "duration": "8 Weeks",
+      "rating": "4.7",
+      "students": 3100
+    },
+    {
+      "id": "COURSE005",
+      "title": "Cyber Security",
+      "level": "Intermediate",
+      "levelClass": "intermediate",
+      "description": "Learn security fundamentals, ethical hacking, network security and practical cyber defense techniques.",
+      "duration": "10 Weeks",
+      "rating": "4.7",
+      "students": 1400
+    },
+    {
+      "id": "COURSE006",
+      "title": "Cloud Computing",
+      "level": "Intermediate",
+      "levelClass": "intermediate",
+      "description": "Learn cloud concepts, deployment, storage, networking and essential cloud platform services.",
+      "duration": "8 Weeks",
+      "rating": "4.6",
+      "students": 1200
+    },
+    {
+      "id": "COURSE007",
+      "title": "Database Management",
+      "level": "Beginner",
+      "levelClass": "beginner",
+      "description": "Learn SQL, database design, queries, relationships and practical database management.",
+      "duration": "6 Weeks",
+      "rating": "4.7",
+      "students": 1600
+    },
+    {
+      "id": "COURSE008",
+      "title": "Generative AI",
+      "level": "Advanced",
+      "levelClass": "advanced",
+      "description": "Explore LLMs, prompt engineering, AI applications and practical Generative AI workflows.",
+      "duration": "8 Weeks",
+      "rating": "4.9",
+      "students": 1100
+    }
+  ],
+  "enrollments": [
+    {
+      "studentId": "STU001",
+      "studentName": "Abinaya S",
+      "studentEmail": "abi34@gmail.com",
+      "phone": "1234567890",
+      "courseId": "COURSE001",
+      "courseName": "Python Programming",
+      "status": "Enrolled",
+      "date": "30/09/2026",
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login - LearnSpace</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="../css/logincss.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- ================= STUDENT LOGIN ================= -->
+
+    <div class="card">
+
+        <h2>
+            <i class="fa-solid fa-user-graduate"></i>
+            Student Login
+        </h2>
+
+        <form id="studentLoginForm">
+
+            <div class="input-box">
+
+                <label for="studentId">
+                    Student ID
+                </label>
+
+                <input
+                    type="text"
+                    id="studentId"
+                    placeholder="Enter Student ID"
+                    required>
+
+            </div>
+
+            <div class="input-box">
+
+                <label for="studentPassword">
+                    Password
+                </label>
+
+                <input
+                    type="password"
+                    id="studentPassword"
+                    placeholder="Enter Password"
+                    required>
+
+            </div>
+
+            <button
+                class="btn"
+                type="submit">
+
+                Login
+
+            </button>
+
+            <div class="links">
+
+                <a href="forgotpassword.html">
+                    Forgot Password?
+                </a>
+
+            </div>
+
+            <div class="register">
+
+                <p>
+                    New Student?
+                </p>
+
+                <a href="register.html">
+                    Register Here
+                </a>
+
+            </div>
+
+        </form>
+
+    </div>
+
+
+    <!-- ================= ADMIN LOGIN ================= -->
+
+    <div class="card">
+
+        <h2>
+            <i class="fa-solid fa-user-shield"></i>
+            Admin Login
+        </h2>
+
+        <form id="adminLoginForm">
+
+            <div class="input-box">
+
+                <label for="adminId">
+                    Admin ID
+                </label>
+
+                <input
+                    type="text"
+                    id="adminId"
+                    placeholder="Enter Admin ID"
+                    required>
+
+            </div>
+
+            <div class="input-box">
+
+                <label for="adminPassword">
+                    Password
+                </label>
+
+                <input
+                    type="password"
+                    id="adminPassword"
+                    placeholder="Enter Password"
+                    required>
+
+            </div>
+
+            <button
+                class="btn"
+                type="submit">
+
+                Login
+
+            </button>
+
+            <div class="links">
+
+                <a href="forgotpassword.html">
+                    Forgot Password?
+                </a>
+
+            </div>
+
+            <div class="register">
+
+                <p>
+                    New Admin?
+                </p>
+
+                <a href="adminregister.html">
+                    Register Here
+                </a>
+
+            </div>
+
+        </form>
+
+    </div>
+
+
+    <!-- ================= BACK TO HOME ================= -->
+
+    <div class="home-container">
+
+        <a href="home.html" class="home-btn">
+
+            <i class="fa-solid fa-house"></i>
+            Back to Home
+
+        </a>
+
+    </div>
+
+</div>
+
+
+<!-- ================= LOGIN JS ================= -->
+<script type="module" src="../js/login.js"></script>
+
+</body>
+
+</html>
